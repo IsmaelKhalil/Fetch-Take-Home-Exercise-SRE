@@ -6,6 +6,7 @@
 2. Clone the repository with the following Git command, or download the ZIP file:
 - `git clone https://github.com/IsmaelKhalil/Fetch-Take-Home-Exercise-SRE.git`
 3. Use the command `cd Fetch-Take-Home-Exercise-SRE` to change into the project directory.
+4. Run the command `pip install -r requirements.txt` to install the packages in `requirements.txt`
 
 # Setting Up Python
 1. Install [Python](https://www.python.org/downloads/) based on your OS.
@@ -14,9 +15,6 @@
    - On Windows, you might receive the following message:
  	- `Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.`
    - If this occurs, search for "Manage App Execution Aliases" in your Windows search menu and uncheck both `python.exe` and `python3.exe`
-3. After installing Python, run the following commands:
-- `pip install pyyaml`
-- `pip install requests`
 
 # Running the Project
 1. In the Shell / Terminal / Command Prompt, run the command `python health_check.py`.
